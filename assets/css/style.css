@@ -3795,8 +3795,24 @@ input[type="number"]::-webkit-outer-spin-button {
   background-size:cover;
 
 }
+.bg-items{
+  background: url(../img/banner/bg-mi.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size:cover;
+
+}
 .brs{
-  border-radius: 10px;
+  border-radius: 10px!important;
+}
+.brs-t{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.brs-b{
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 .hero__slider--bg.slider2 {
   background: url(../img/home/shop.png);
